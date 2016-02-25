@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -17,6 +18,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.next();
         System.out.println(input);
+        String[] V = new
         if (ABC[i].equals(input)) {
             System.out.println("You are win");
         } else for (int j = 0; j < ABC.length; j++) {
